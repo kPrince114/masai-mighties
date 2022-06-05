@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #container{
+        #container {
             display: flex;
             width: 100%;
             height: 50px;
             border-radius: 10px;
             color: white;
-    
+
         }
-        #container>div{
+
+        #container>div {
             width: 50%;
             height: 100%;
             display: flex;
             justify-content: space-around;
-            background-color: rgb(29,40,56);
-            
+            background-color: rgb(29, 40, 56);
+
         }
-        #container>div:first-child{
+
+        #container>div:first-child {
             justify-content: left;
             align-items: center;
             padding-left: 20px;
-            border-radius:10px 0px 0px 10px;
+            border-radius: 10px 0px 0px 10px;
         }
-        #container>div:last-child{
-            border-radius:0px 10px 10px 0px;
+
+        #container>div:last-child {
+            border-radius: 0px 10px 10px 0px;
         }
     </style>
 </head>
+
 <body>
     <div id="container">
         <div>Reebok</div>
         <div>
-            <p>Men</p>
+            <p><a href="mens.html" target="_blank">Mens</a></p>
             <p>Women</p>
-            <p>Login</p>
-            <p>Signup</p>
+            <p><a href="login.html" target="_blank">login</a></p>
+            <p><a href="signup.html" target="_blank">Signup</a></p>
         </div>
     </div>
 </body>
+
 </html>
