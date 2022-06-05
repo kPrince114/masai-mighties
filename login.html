@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN PAGE</title>
     <style>
-        body{
+        body {
             margin: 0px;
             padding: 0px;
             background-color: #6c64be;
         }
-        #container{
+
+        #container {
             width: 20%;
             margin: auto;
             padding: 50px;
@@ -25,29 +27,34 @@
             flex-direction: column;
             justify-content: space-between;
         }
-        input{
+
+        input {
             border: 0px;
             height: 40px;
             width: 100%;
             margin-top: 10px;
             color: grey;
         }
-        #login{
+
+        #login {
             height: 50px;
             color: white;
             border: 0px;
             background-color: #6c64be;
         }
-        #login+p{
+
+        #login+p {
             margin-top: 40px;
             margin-bottom: -20px;
         }
-        hr{
+
+        hr {
             height: 1px;
             background-color: rgb(169, 168, 168);
         }
     </style>
 </head>
+
 <body>
     <div id="container">
         <h1>Login</h1>
@@ -55,11 +62,12 @@
             <input type="email" id="email" placeholder="Email">
             <hr>
             <input type="password" id="password" placeholder="Password">
-            <hr> 
+            <hr>
         </form>
         <button id="login">Login</button>
         <p>Forgot <a href="" target="_blank">Password</a>?</p>
-        <p>Don't have an account ? <a href="" target="_blank">Sign up</a></p>                
+        <p>Don't have an account ? <a href="signup.html" target="_blank">Sign up</a></p>
     </div>
 </body>
+
 </html>
